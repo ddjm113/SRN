@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SRN</string>
+    <string name="_1">1</string>
+    <string name="h">H</string>
+    <string name="proton">Proton</string>
+    <string name="neutron">Neutron</string>
+    <string name="he">He</string>
+    <string name="particula_alfa">Particula alfa</string>
+    <string name="tritio">Tritio</string>
+    <string name="deuteron">Deuteron</string>
+    <string name="_0">0</string>
+    <string name="_4">4</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="n">n</string>
+    <string name="seleccionar_particula_proyectil">Seleccionar particula proyectil</string>
+    <string name="seleccionar_elemento_blanco">Seleccionar elemento blanco</string>
+    <string name="part_alfa">Part. Alfa</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="seleccionar_particula_resultante">Seleccionar particula resultante</string>
+    <string name="coma">,</string>
+    <string name="parentder">)</string>
+    <string name="parentizq">(</string>
+
+    <string name="k_name">Potasio</string>
+    <string name="k_z">19</string>
+    <string name="k_sim">K</string>
+    <string name="k_a">38</string>
+    <string name="a">a</string>
+    <string name="p">p</string>
+    <string name="d">d</string>
+    <string name="r">r</string>
+    <string name="hidrogeno">Hidrogeno</string>
+</resources>

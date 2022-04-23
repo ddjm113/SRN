@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Selpartre">
+
+    <Button
+        android:id="@+id/bprne"
+        style="@style/Widget.Material3.Button.Icon"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/neutron"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#3F51B5"
+        android:textColorLink="@color/teal_200"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bprpar"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="34dp"
+        android:text="@string/n"
+        android:textColor="#3F51B5"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bprne"
+        app:layout_constraintEnd_toEndOf="@+id/bprne"
+        app:layout_constraintTop_toTopOf="@+id/bprne" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="13dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_0"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bprne"
+        app:layout_constraintEnd_toStartOf="@+id/textView78" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView78"
+        app:layout_constraintTop_toTopOf="@+id/bprne" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="409dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/seleccionar_particula_resultante"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bprpar"
+        style="@style/Widget.Material3.Button.Icon"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/part_alfa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#3F51B5"
+        android:textColorLink="@color/teal_200"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bprtr"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:text="@string/a"
+        android:textColor="#3F51B5"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bprpar"
+        app:layout_constraintEnd_toEndOf="@+id/bprpar"
+        app:layout_constraintTop_toTopOf="@+id/bprpar" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="13dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_2"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bprpar"
+        app:layout_constraintEnd_toStartOf="@+id/textView74" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_4"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView74"
+        app:layout_constraintTop_toTopOf="@+id/bprpar" />
+
+    <Button
+        android:id="@+id/bprde"
+        style="@style/Widget.Material3.Button.Icon"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/deuteron"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#3F51B5"
+        android:textColorLink="@color/teal_200"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bprpr"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:text="@string/d"
+        android:textColor="#3F51B5"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bprde"
+        app:layout_constraintEnd_toEndOf="@+id/bprde"
+        app:layout_constraintTop_toTopOf="@+id/bprde"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="13dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_1"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bprde"
+        app:layout_constraintEnd_toStartOf="@+id/textView70" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_2"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView70"
+        app:layout_constraintTop_toTopOf="@+id/bprde" />
+
+    <Button
+        android:id="@+id/bprtr"
+        style="@style/Widget.Material3.Button.Icon"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/tritio"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#3F51B5"
+        android:textColorLink="@color/teal_200"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bprde"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="13dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_1"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bprtr"
+        app:layout_constraintEnd_toStartOf="@+id/textView51" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:text="@string/r"
+        android:textColor="#3F51B5"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bprtr"
+        app:layout_constraintEnd_toEndOf="@+id/bprtr"
+        app:layout_constraintTop_toTopOf="@+id/bprtr" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_3"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView51"
+        app:layout_constraintTop_toTopOf="@+id/bprtr" />
+
+    <Button
+        android:id="@+id/bprpr"
+        style="@style/Widget.Material3.Button.Icon"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="140dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/proton"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#3F51B5"
+        android:textColorLink="@color/teal_200"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView42"
+        app:layout_constraintTop_toTopOf="@+id/bprpr" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:text="@string/p"
+        android:textColor="#3F51B5"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bprpr"
+        app:layout_constraintEnd_toEndOf="@+id/bprpr"
+        app:layout_constraintTop_toTopOf="@+id/bprpr" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="13dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_1"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bprpr"
+        app:layout_constraintEnd_toStartOf="@+id/textView42" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

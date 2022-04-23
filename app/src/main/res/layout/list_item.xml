@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:id="@+id/card_view">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/bselblan"
+            style="@style/Widget.Material3.Button.Icon"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/teal_200"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#3F51B5"
+            android:textColorLink="@color/teal_200"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/simblan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="h"
+            android:textColor="#3F51B5"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="@+id/bselblan"
+            app:layout_constraintStart_toEndOf="@+id/ablan"
+            app:layout_constraintTop_toTopOf="@+id/bselblan"
+            app:layout_constraintVertical_bias="0.52" />
+
+        <TextView
+            android:id="@+id/zblan"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="212dp"
+            android:text="14"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@+id/bselblan"
+            app:layout_constraintTop_toTopOf="@+id/bselblan" />
+
+        <TextView
+            android:id="@+id/ablan"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="212dp"
+            android:layout_marginBottom="4dp"
+            android:text="1"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/bselblan"
+            app:layout_constraintStart_toStartOf="@+id/bselblan" />
+
+        <TextView
+            android:id="@+id/nomblanc"
+            android:layout_width="169dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="36dp"
+            android:text="hidrogeno"
+            android:textColor="#3F51B5"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="@+id/bselblan"
+            app:layout_constraintStart_toStartOf="@+id/bselblan"
+            app:layout_constraintTop_toTopOf="@+id/bselblan"
+            app:layout_constraintVertical_bias="0.481" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

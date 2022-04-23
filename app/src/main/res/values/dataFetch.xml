@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cpu_1_name">Intel Core i5-9600K</string>
+    <string name="cpu_1_price">4300</string>
+
+</resources>
+
